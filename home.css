@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    padding: 15px;
+    padding-left: 150px;
+    width: 1600px;
+    justify-content: space-between;
+    overflow-x: hidden;
+    align-items: center;
+}
+.nav-content ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.nav-content ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-content ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: blue;
+}
+
+.nav-content ul .active a{
+    color: orange;
+}
+
+.content-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/Asset/bg-img.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%;
+    position: relative;
+    display: flex;
+}
+
+.wrapper-all{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+.wrapper-all .content{
+    display: flex;
+    align-items: center;
+}
+
+.picture{
+    width: 500px;
+    height: 500px;
+    margin-right: 100px;
+}
+
+.content .hello h4{
+    font-size: 30px;
+    margin: 0;
+}
+
+.content .hello h1{
+    font-size: 90px;
+    margin: 0;
+}
+.content .hello h2{
+    font-size: 40px;
+    margin: 0;
+}
+.content .hello button{
+    background: darkorange;
+    border-radius: 40px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border: none;
+}
